@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var url = require('url');
-var testmod = require('./store/testmod');
 var mongoose = require('mongoose');
 var shorturl = require('./store/shurl'); 
 
